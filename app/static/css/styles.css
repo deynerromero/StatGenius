@@ -1,0 +1,52 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f5f7fb;
+  color: #1f2937;
+}
+
+.container {
+  width: min(960px, 92%);
+  margin: 0 auto;
+}
+
+.header {
+  background: linear-gradient(120deg, #0f4c81, #145da0);
+  color: #fff;
+  padding: 2.5rem 0;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.hero {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(15, 76, 129, 0.08);
+}
+
+.hero h2 {
+  margin-top: 0;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  background: #145da0;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cta:hover {
+  background: #0f4c81;
+}
